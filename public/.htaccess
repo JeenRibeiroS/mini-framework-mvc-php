@@ -1,0 +1,13 @@
+
+Options - Indexes
+
+RewriteEngine editOne
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index-php?router=$1{QSA,L}
+
+#uncomente this line on server
+#Rewrite %{HTTPS} !=on
+#RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]
+
+

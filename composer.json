@@ -1,0 +1,15 @@
+{
+    "name": "projeto/miniframeworkphp",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jean Carlos"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
